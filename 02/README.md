@@ -18,8 +18,8 @@ A ideia foi treinar um modelo para capturar as características das projeções 
 Dessa forma, nosso modelo foi capaz de agrupar as imagens com base em suas orientações, que seriam as "classes" intrínsecas a serem descobertas.
 
 O treinamento do Multi-scale Autoencoder foi executado por 100 épocas. Decidimos utilizar um multi-scale autoencoder, pois a arquitetura com "multi-scale" nos permite capturar tanto "detalhes finos" quanto "estruturas globais/maiores", sendo ideal para diferenciar as orientações sutis da proteína. 
-> Esse é um exemplo da reconstrução das imagens originais utilizando nosso [multi-scale autencoder](https://github.com/felipevzps/LBB-4/blob/main/desafio-1/02/src/autoencoder.py).
->![Reconstrução Multiscale Autoencoder](https://github.com/felipevzps/LBB-4/blob/main/desafio-1/02/results/multiscale_autoencoder_reconstruction.png) 
+> Esse é um exemplo da reconstrução das imagens originais utilizando nosso [multi-scale autencoder](src/autoencoder.py).
+>![Reconstrução Multiscale Autoencoder](results/multiscale_autoencoder_reconstruction.png) 
 
 Ao final da classificação, fizemos o mapeamento dos `clusters` para as `classes verdadeiras`.  
 >Por exemplo, o `cluster 0` representa a proteína GroEL no angulo `top`.
@@ -27,7 +27,7 @@ Ao final da classificação, fizemos o mapeamento dos `clusters` para as `classe
 ## Análise dos Vetores Latentes: A Segregação das Poses da GroEL
 
 A visualização t-SNE dos vetores latentes gerados pelo nosso Multi-scale Autoencoder revela a complexidade do problema de classificação de orientações. 
->![Classificação GroEL](https://github.com/felipevzps/LBB-4/blob/main/desafio-1/02/results/tSNE_latent_vectors.png)
+>![Classificação GroEL](results/tSNE_latent_vectors.png)
 
 O gráfico mostra que nosso modelo foi capaz de aprender e segregar os diferentes estados de orientação da proteína GroEL em clusters distintos, demonstrando a eficácia do autoencoder na captura das características geométricas das projeções 2D.
 
