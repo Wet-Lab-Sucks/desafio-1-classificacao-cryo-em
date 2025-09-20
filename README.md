@@ -9,5 +9,5 @@ Neste desafio, exploramos técnicas de deep learning para a análise de imagens 
 
 Este desafio foi dividido em duas etapas:
 
-* [Desafio 1.1: Classificação Geométrica de Partículas]()
-* [Desafio 1.2: Classificação de Orientações de Partículas GroEL]()
+* [Desafio 1.1: Classificação Geométrica de Partículas](https://github.com/Wet-Lab-Sucks/desafio-1-classificacao-cryo-em/tree/main/01)
+* [Desafio 1.2: Classificação de Orientações de Partículas GroEL](https://github.com/Wet-Lab-Sucks/desafio-1-classificacao-cryo-em/tree/main/02)
