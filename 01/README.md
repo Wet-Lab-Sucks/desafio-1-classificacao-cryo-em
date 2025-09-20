@@ -15,7 +15,7 @@ Inicialmente, exploramos abordagens de *unsupervised learning* utilizando [**Aut
 
 Embora tivéssemos a expectativa de que Autoencoders poderiam ser eficazes para representar as imagens em vetores menores e, consequentemente, facilitar a separação por K-Means, observamos uma **baixa acurácia** nas classificações. 
 >[!NOTE]
->Este é um exemplo de recronstrução das imagens originais utilizando nosso [multi-scale autoencoder](https://github.com/felipevzps/LBB-4/blob/main/desafio-1/01/src/autoencoder.py)
+>Este é um exemplo de recronstrução das imagens originais utilizando nosso [multi-scale autoencoder](src/autoencoder.py)
 >![Reconstrução Multiscale Autoencoder](results/reconstruction_latent_dim_128_multiscale_autoencoder.png)
 
 Além disso, necessidade de mapear manualmente os clusters para as classes verdadeiras (`cluster_1` -> `cube`, por exemplo) também se mostrou um gargalo e uma fonte potencial de erros.  
@@ -35,7 +35,7 @@ Com este dataset rotulado, projetamos e treinamos uma **Rede Neural Convoluciona
 >[!IMPORTANT]
 TLDR: A arquitetura da nossa CNN possui 3 camadas convolucionais com regularização L2, funções de ativação Leaky ReLU, normalização de *batch* e *dropout* para prevenir *overfitting*. Considerando que estamos participando de uma competição onde o tempo é importante, adotamos a inclusão de callbacks no treinamento, como `EarlyStopping`, `ModelCheckpoint` e `ReduceLROnPlateau`.
 
-> Aqui é possível entender melhor a nossa arquitetura: [CNN.py](https://github.com/felipevzps/LBB-4/blob/main/desafio-1/01/src/CNN.py)
+> Aqui é possível entender melhor a nossa arquitetura: [CNN.py](src/CNN.py)
 
 ### Resultados Obtidos
 
