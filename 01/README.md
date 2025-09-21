@@ -1,4 +1,4 @@
-# Desafio 1.1 - Classificação Geométrica de Partículas
+# Desafio 1.1: Classificação Geométrica de Partículas
 
 ## Descrição do Desafio
 
