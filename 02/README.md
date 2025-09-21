@@ -1,4 +1,4 @@
-# Desafio 1.2 - Classificação de Orientações de Partículas GroEL
+# Desafio 1.2: Classificação de Orientações de Partículas GroEL
 
 ## Descrição do Desafio
 
