@@ -1,6 +1,7 @@
 # Classificação de Partículas Cryo-EM
 
 Este repositório documenta a nossa abordagem para o **Desafio 1: Reconhecimento e Classificação de Estruturas Cryo-EM** na segunda fase da **Liga Brasileira de Bioinformática (2025)**.  
+
 O objetivo principal foi dominar a etapa de classificação de partículas, um passo fundamental em pipelines de [crio-microscopia eletrônica (Cryo-EM)](https://pt.wikipedia.org/wiki/Crio-microscopia_eletr%C3%B3nica).
 
 Neste desafio, exploramos técnicas de deep learning para a análise de imagens de Cryo-EM, com foco na `classificação` e na `determinação de orientações` de partículas. 
